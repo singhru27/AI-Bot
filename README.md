@@ -17,7 +17,7 @@ map lets you select the map that the game is to be played on. The syntax is:
 
 ```
  -map <path to map>
-```
+```
 
 multi test lets you run the same game setup (choice of bots and map) multiple times. You may want to run multiple tests with the -no image flag, so the games are played more quickly. (Printing to the terminal slows things down.) To do so, use 
 
