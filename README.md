@@ -6,10 +6,27 @@ Instructions to Run:
 NOTE - If you are running a Linux machine, change the ta_bots_linux.so to ta_bots.so and delete the original TA bot file
 
 gamerunner.py can be used to test the AI bot against a series of opponent bots. This function takes a few command line arguments, the most important of which are:
- -bots lets you specify which bots to play against one another. The syntax is -bots <bot1> <bot2>
- -map lets you select the map that the game is to be played on. The syntax is -map <path to map>
- -multi test lets you run the same game setup (choice of bots and map) multiple times. You may want to run multiple tests with the -no image flag, so the games are played more quickly. (Printing to the terminal slows things down.) To do so, use -multi test <number of games> -no image.
- -no color runs the game without coloring the board printout. You should use this option if coloring causes display issues.
+ 
+bots lets you specify which bots to play against one another. The syntax is 
+```
+-bots <bot1> <bot2>
+```
+
+map lets you select the map that the game is to be played on. The syntax is:
+```
+ -map <path to map>
+```
+
+multi test lets you run the same game setup (choice of bots and map) multiple times. You may want to run multiple tests with the -no image flag, so the games are played more quickly. (Printing to the terminal slows things down.) To do so, use 
+```
+-multi test <number of games> -no image.
+```
+
+To run the game without coloring the board printout, use the following flag. You should use this option if coloring causes display issues.
+```
+no color 
+```
+
 
 For example, the StudentBot can be tested against RandBot on the joust map using:
 
