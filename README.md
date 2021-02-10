@@ -28,7 +28,7 @@ multi test lets you run the same game setup (choice of bots and map) multiple ti
 To run the game without coloring the board printout, use the following flag. You should use this option if coloring causes display issues.
 
 ```
-no color 
+no color 
 ```
 
 
