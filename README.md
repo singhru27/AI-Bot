@@ -13,7 +13,9 @@ gamerunner.py can be used to test the AI bot against a series of opponent bots. 
 
 For example, the StudentBot can be tested against RandBot on the joust map using:
 
+```
 python gamerunner.py -bots student random -map maps/joust.txt
+```
 
 StudentBot can be tested against against WallBot 100 times with no visualizer on the empty room map with
 python gamerunner.py -bots student wall -map maps/empty room.txt -multi test 100 -no image
