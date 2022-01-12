@@ -65,10 +65,6 @@ They will go UP this round."""
 
 
 def main():
-    # Feel free to uncomment these if you want to test deterministic behavior!
-    # random.seed(1)
-    # np.random.seed(1)
-
     parser = argparse.ArgumentParser(prog="gamerunner", usage="%(prog)s [options]")
     parser.add_argument(
         "-map", type=str, help=HelpMessage.MAP, default=Argument_Defaults.MAP
@@ -159,7 +155,7 @@ class HelpMessage:
     )
     BOTS = (
         '''which bot each player will use. Valid bot types include "student",
-        "wall", "random", "ta1", "ta2". This argument takes in a sequnce of bot types,
+        "wall", "random", "test1", "test2". This argument takes in a sequnce of bot types,
         where the first bot is used for the first player, the second bot is for the second
         player, and so on. Defaults to "'''
         + Argument_Defaults.BOTS[0]

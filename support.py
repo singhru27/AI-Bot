@@ -21,14 +21,14 @@ def determine_bot_functions(bot_names):
             bot_list.append(bots.StudentVoronoiBot())
         elif name == "wall":
             bot_list.append(bots.WallBot())
-        elif name == "ta1":
+        elif name == "test1":
             bot_list.append(ta_bots.TABot1())
-        elif name == "ta2":
+        elif name == "test2":
             bot_list.append(ta_bots.TABot2())
         else:
             raise ValueError(
                 """Bot name %s is not supported. Value names include "student",
-"random", "wall", "ta1", "ta2" """
+"random", "wall", "test1", "test2" """
                 % name
             )
     return bot_list
